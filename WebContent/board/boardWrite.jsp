@@ -30,7 +30,7 @@
           <li><a href="#">Page 1-3</a></li>
         </ul>
       </li>
-      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Board</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -42,7 +42,7 @@
 
 <div class="container">
   <h2>Board Write Form</h2>
-  <form action="#">
+  <form action="./boardWriteProcess.board" method="post">
     <div class="form-group">
       <label for="title">Title:</label>
       <input type="text" class="form-control" id="title" placeholder="Enter title" name="title">
